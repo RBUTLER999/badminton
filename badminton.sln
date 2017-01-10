@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "badminton", ".", "{FB33948D-A663-44CE-AA89-CCAD1A47A223}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/badminton"
+		Debug.AspNetCompiler.PhysicalPath = "..\badminton\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\badminton\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/badminton"
+		Release.AspNetCompiler.PhysicalPath = "..\badminton\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\badminton\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49492"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB33948D-A663-44CE-AA89-CCAD1A47A223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB33948D-A663-44CE-AA89-CCAD1A47A223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB33948D-A663-44CE-AA89-CCAD1A47A223}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB33948D-A663-44CE-AA89-CCAD1A47A223}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

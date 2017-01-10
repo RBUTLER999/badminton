@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Angel Centre Badminton Club</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <link rel="shortcut icon" href="favicon.ico"/>
+
+    <!--[if lt IE 7]> <link href="stylesIE6andBelow.css" rel="stylesheet" type="text/css"> <![endif]-->
+</head>
+<body>
+    <div>
+        <div id="header" style="height:120px">
+            <div style="float:left; padding:10px;">
+                <img src="images/ACBC logo.jpg" height="93">
+            </div>
+			<div class="content">
+				<!-- 
+				<h1>CSS play - SIMPLE Flexible Layout - 3 columns two fixed widths</h1>
+				<p>Resize you browser window and watch it stay in shape. NO graphics have been used in this demonstration (except for the 'Donate' button).</p>
+				-->
+				<p class="centredImage"><img src="images/title.jpg" alt="main image"/></p>
+			</div>
+		</div>
+		<!-- end header -->
+		<div id="wrapper">
+			<div id="outer1">
+			    <div id="menuMain">
+				    <ul>
+			            <li id="mnu_Home" runat="server"><a href="Home.aspx" title="Angel Centre Badminton Club">Home</a></li>
+			            <li id="mnu_OurFriends" runat="server"><a href="OurFriends.aspx" title="play.com">Our Friends</a></li>
+			            <li id="mnu_Fixtures" runat="server"><a href="Fixtures.aspx" title="Fixture list">Fixtures</a></li>
+			            <li id="mnu_Gallery" runat="server"><a href="Gallery.aspx" title="Gallery">Gallery</a></li>
+			            <li id="mnu_Contact" runat="server"><a href="BadmintonContact.aspx" title="Contact">Contact</a></li>
+                        <li id="mnu_NoticesAndNews" runat="server"><a href="NoticesAndNews.aspx" title="Notices And News">Notices And News</a></li>
+                        <li id="mnu_UsefulLinks" runat="server"><a href="UsefulLinks.aspx" title="Useful Links">Useful Links</a></li>
+			        </ul>
+			    </div>
+                <a href="http://www.badmintonengland.co.uk/homepage.asp">
+                    <img src="images/affiliated_club.jpg" style="margin:10px 0px"/>
+                </a>
+                <a href="https://www.facebook.com/angelcentrebc">
+                    <img src="images/facebook.jpg"/>
+                </a>
+			</div>
+			<form id="form1" runat="server">
+			<div id="outer2">
+                <asp:ContentPlaceHolder id="ph_Centre" runat="server"/>
+			</div>
+			<!-- end outer2 -->
+			<!--
+			<div id="outer3">
+			    <asp:ContentPlaceHolder id="ph_RightColumn" runat="server"/>
+			</div>
+			-->
+			<!-- end outer3 -->
+            </form>
+		</div>
+		<!-- end #wrapper -->
+		<div id="footer">
+			<div>Site designed by <a href="http://www.bbcmicrogames.com/screenshots/repton11.gif" target="_blank">Lizard</a></div>
+		</div>
+		<!-- end footer -->
+    </div>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-13112670-1");
+        pageTracker._trackPageview();
+        } catch(err) {}
+    </script>
+</body>
+</html>

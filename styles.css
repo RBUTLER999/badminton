@@ -1,0 +1,52 @@
+﻿body {font-family:"trebuchet MS", verdana, arial, sans-serif; background:#f0f0f0;}
+
+#header {background:#939eb9;}
+
+#outer1 {float:left; width:180px; padding:10px; background:#b0b0b0;}
+#outer2 {float:left; width:647px; padding:10px; background:#b0b0b0;}
+#outer3 {background:#b0b0b0; padding:10px; margin-left:400px;}
+px #outer1, #outer2, #outer3 {padding-bottom:32767px; margin-bottom:-32767px;}
+
+#wrapper {overflow:hidden; background:#b0b0b0;}
+
+#footer {clear:both; background:#939eb9; font-weight:bolder;}
+
+.content {padding:10px;}
+.centre
+{
+	text-align:center;	
+	margin-left:0;
+	margin-right:0;
+	font-style:italic;
+	font-weight:bolder;
+	margin:5px;
+}
+h1 {font-size:18px; margin:0; padding:10px 0; color:#fff;}
+h2 {font-size:16px; margin:0; padding:10px 0; color:#fff;}
+h3 {font-size:15px; margin:0; padding:8px 0;}
+p {font-size:14px; line-height:1.5em; margin:0; padding:5px 0; color:Black;}
+#footer p,
+#header p {color:#fff;}
+#footer a {color:#fff;}
+#footer a:hover {text-decoration:none;}
+
+.centredImage
+{
+	/*text-align:center;*/
+	margin-left:190px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+
+.leftImage {
+    position: absolute;
+    left: 0px;
+    margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+
+.a option {
+        height: 30px;
+}

@@ -1,0 +1,48 @@
+﻿/* menuMain starts here */
+#menuMain {
+width: 180px;
+float:left;
+}
+
+#menuMain ul
+{
+font-family: Arial, Helvetica, sans-serif;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+#menuMain li
+{
+display: inline;
+/* for IE5 and IE6 */
+}
+
+#menuMain a
+{
+color:Blue;
+text-decoration: none;
+font-size: 14px;
+display: block;
+padding: 4px;
+width: 140px;
+/* background-color: #F0F0D8; */
+}
+
+#menuMain a:link, #menuMain a:visited
+{
+color:Blue;
+text-decoration: underline;
+}
+
+#menuMain a:hover
+{
+background-color:Black;
+color:White;
+}
+
+#menuMain li a#current
+{
+background-color:Black;
+color:Orange;
+}
+/* Menu 2 ends here */

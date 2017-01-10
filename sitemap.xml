@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://www.angelbadminton.co.uk/</loc>
+		<lastmod>2010-02-19</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://www.angelbadminton.co.uk/Fixtures.aspx</loc>
+		<lastmod>2010-02-19</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://www.angelbadminton.co.uk/Contact.aspx</loc>
+		<lastmod>2010-02-19</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+  <url>
+    <loc>http://www.angelbadminton.co.uk/OurFriends.aspx</loc>
+    <lastmod>2010-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
