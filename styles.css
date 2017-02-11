@@ -5,7 +5,7 @@
 #outer1 {float:left; width:180px; padding:10px; background:#b0b0b0;}
 #outer2 {float:left; width:647px; padding:10px; background:#b0b0b0;}
 #outer3 {background:#b0b0b0; padding:10px; margin-left:400px;}
-px #outer1, #outer2, #outer3 {padding-bottom:32767px; margin-bottom:-32767px;}
+#outer1, #outer2, #outer3 {padding-bottom:32767px; margin-bottom:-32767px;}
 
 #wrapper {overflow:hidden; background:#b0b0b0;}
 

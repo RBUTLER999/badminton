@@ -48,12 +48,12 @@
                 </a>
             </div>
             <form id="form1" runat="server">
-                <div id="outer2">
-                    <asp:ContentPlaceHolder ID="ph_Centre" runat="server" />
-                </div>
-                <!-- end outer2 -->
-                <!--
-			<div id="outer3">
+            <div id="outer2">
+                <asp:ContentPlaceHolder ID="ph_Centre" runat="server" />
+            </div>
+            <!-- end outer2 -->
+            <!--
+                <div id="outer3">
 			    <asp:ContentPlaceHolder id="ph_RightColumn" runat="server"/>
 			</div>
 			-->
@@ -62,7 +62,10 @@
         </div>
         <!-- end #wrapper -->
         <div id="footer">
-            <div>Site designed by <a href="http://www.bbcmicrogames.com/screenshots/repton11.gif" target="_blank">Lizard</a></div>
+            <div>Site designed by 
+                <a href="http://www.bbcmicrogames.com/screenshots/repton11.gif" target="_blank">Lizard</a>
+                <asp:Literal runat="server" ID="latestResults" Text=""></asp:Literal>
+            </div>
         </div>
         <!-- end footer -->
     </div>

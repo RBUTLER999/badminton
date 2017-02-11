@@ -11,5 +11,4 @@
     <p>Guest fees for a Sunday club session are £6, payable on the night and visitors can take part in up to 6 sessions before having to commit to joining as a full or associate member in line with Badminton England guidance for clubs.</p>
     <p>To find out more, please contact us on:</p>
     <p>angelcentre.badders.club@hotmail.co.uk</p>
-
 </asp:Content>
