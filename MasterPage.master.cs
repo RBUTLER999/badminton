@@ -51,7 +51,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
                 cachedString = client.DownloadString("https://www.dropbox.com/s/hlj1urkxivhikdq/Results Ticker ANGEL CENTRE.htm?dl=1");
             }
 
-            Cache.Insert(latest, cachedString);
+            Cache.Insert(latest, cachedString, null, DateTime.Now.Date.AddDays(1).AddMinutes(-1), TimeSpan.Zero);
         }
 
         latestResults.Text = cachedString;
