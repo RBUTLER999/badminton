@@ -1,4 +1,5 @@
 ﻿using System;
+using System.EnterpriseServices;
 using System.IO;
 using System.Net;
 using System.Web.UI.HtmlControls;
@@ -36,21 +37,23 @@ public partial class MasterPage : System.Web.UI.MasterPage
         }
 
     }
-
+    
     private void LoadLatestResults()
     {
-        using (WebClient client = new WebClient())
+        string latest = "latestResults";
+
+        var cachedString = (string)Cache[latest];
+
+        if (string.IsNullOrEmpty(cachedString))
         {
-            var originalString = client.DownloadString("https://dl.dropboxusercontent.com/u/29994741/TWBL/Results%20Ticker%20ANGEL%20CENTRE.htm");
-            //originalString = originalString.Replace(@"<marquee bgcolor=""#cccccc"" loop=""-1"" scrollamount=""4"" width=""100%"">", string.Empty);
-            originalString = originalString.Replace("<font size=5>", string.Empty);
-            originalString = originalString.Replace("</font>", string.Empty);
-            //originalString = originalString.Replace("</marquee>", string.Empty);
-            //originalString = originalString.Replace("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", "</p><p>");
-            //originalString = originalString.Replace(",", "<br>");
-            originalString = originalString.Replace("<B>ANGEL CENTRE LATEST RESULTS:</B>", "Latest Results&nbsp");
-            
-            latestResults.Text = originalString;//.Replace("&nbsp&nbsp&nbsp", "<p>");
+            using (WebClient client = new WebClient())
+            {
+                cachedString = client.DownloadString("https://www.dropbox.com/s/hlj1urkxivhikdq/Results Ticker ANGEL CENTRE.htm?dl=1");
+            }
+
+            Cache.Insert(latest, cachedString);
         }
+
+        latestResults.Text = cachedString;
     }
 }
