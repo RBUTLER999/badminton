@@ -27,8 +27,8 @@ data.push(["November", "Friday", "10th", "Ladies 6", "St Johns B", "Tunbridge We
 data.push(["November", "Friday", "10th", "Masters", "Langton Green", "Village Hall Langton Green", "7.30"]);
 data.push(["November", "Friday", "10th", "Mens A", "Hildenborough A", "Angel Centre", "8"]);
 data.push(["November", "Friday", "10th", "Mens C", "Sevenoaks C", "Angel Centre", "8"]);
-data.push(["November", "Monday", "13th", "Mixed B", "Sevenoaks C", "Weald of Kent Sevenoaks", "8.15"]);
 data.push(["November", "Monday", "13th", "Mixed D", "Hilden Grange B", "Hilden Grange School", "8"]);
+data.push(["November", "Monday", "14th", "Mixed B", "Sevenoaks C", "Weald of Kent Sevenoaks", "8.15"]);
 data.push(["November", "Wednesday", "15th", "Edenbridge Cups", "Newick", "Newick Village Hall", "8.15"]);
 data.push(["November", "Thursday", "16th", "Ladies 4", "AIT", "Mascalls School", "8.05"]);
 data.push(["November", "Friday", "17th", "Mens B", "St Johns C", "Tunbridge Wells Sports Centre", "7.30"]);
