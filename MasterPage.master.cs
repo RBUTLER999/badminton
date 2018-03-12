@@ -42,7 +42,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
     {
         string latest = "latestResults";
 
-        var cachedString = (string)Cache[latest];
+        string cachedString = (string)Cache[latest];
 
         if (string.IsNullOrEmpty(cachedString))
         {
