@@ -9,6 +9,7 @@
     <p>Affiliated with both Badminton England and Kent Badminton, we field many teams that compete in the Tunbridge Wells league and the Edenbridge Friendly league. Mens' Doubles, Ladies' Doubles and Mixed Doubles are catered for and we take part in a number of Cup competitions as well.</p>
     <p>Our club night is on Sunday evenings from 8-10 p.m., using feather shuttles.</p>
     <p>Guest fees for a Sunday club session are £6, payable on the night and visitors can take part in up to 6 sessions before having to commit to joining as a full or associate member in line with Badminton England guidance for clubs.</p>
+    <p><i>Note that due to internal tournaments, visitors are advised to avoid Sunday 15th and 22nd of September</i></p>
     <p>To find out more, please contact us on:</p>
     <p>angelcentre.badders.club@hotmail.co.uk</p>
 </asp:Content>
